@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.5.0)
+
+# Add individual test problems
+add_subdirectory(cathermo)
+add_subdirectory(ChemEquil_ionizedGas)
+#add_subdirectory(clib_test)
+add_subdirectory(CpJump)
+add_subdirectory(cxx_ex)
+add_subdirectory(diamondSurf)
+add_subdirectory(dustyGasTransport)
+add_subdirectory(mixGasTransport)
+add_subdirectory(multiGasTransport)
+add_subdirectory(pureFluidTest)
+add_subdirectory(rankine_democxx)
+add_subdirectory(silane_equil)
+add_subdirectory(stoichSolidKinetics)
+add_subdirectory(surfkin)
+add_subdirectory(surfSolverTest)
+add_subdirectory(VCSnonideal/LatticeSolid_LiSi)
+add_subdirectory(VCSnonideal/NaCl_equil)
+add_subdirectory(VPsilane_test)
+
