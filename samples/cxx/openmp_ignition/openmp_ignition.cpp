@@ -51,7 +51,7 @@ void run()
     // thread in cases where the workload is biased, e.g. calculations for low
     // T0 take longer than calculations for high T0.
     #pragma omp parallel for schedule(static, 1)
-    for (size_t i = 0; i < nPoints; i++) {
+    for (int i = 0; i < nPoints; i++) {
         // Get the Cantera objects that were initialized for this thread
         size_t j = omp_get_thread_num();
         IdealGasMix& gas = *gases[j];
