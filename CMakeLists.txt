@@ -13,7 +13,7 @@ if(MSVC)
     add_compile_options(/W3)
     add_definitions(/D_CRT_SECURE_NO_WARNINGS /D_SCL_SECURE_NO_WARNINGS)
 else()
-    add_compile_options(-fPIC -Wall -Wpedantic -Werror)
+    add_compile_options(-fPIC -Wall -Wpedantic)
 endif()
 
 # Common build/install settings
